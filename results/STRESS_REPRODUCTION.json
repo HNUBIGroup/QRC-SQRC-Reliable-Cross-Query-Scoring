@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "cases": 800,
+  "original_columns_compared": 24,
+  "max_abs_error": 0.0,
+  "per_column_max_abs_error": {
+    "nominal_uncertainty_sigma2_over_n": 0.0,
+    "tau_true2": 0.0,
+    "tau_b2_validation": 0.0,
+    "tau_b2_abs_error": 0.0,
+    "validation_observed_bhat_variance": 0.0,
+    "validation_mean_se2": 0.0,
+    "test_mean_se2": 0.0,
+    "mean_weight": 0.0,
+    "median_weight": 0.0,
+    "min_weight": 0.0,
+    "max_weight": 0.0,
+    "oracle_weight": 0.0,
+    "qrc_bias_mse": 0.0,
+    "sqrc_bias_mse": 0.0,
+    "sqrc_minus_qrc_bias_mse": 0.0,
+    "sqrc_bias_mse_relative_reduction": 0.0,
+    "qrc_score_rmse": 0.0,
+    "sqrc_score_rmse": 0.0,
+    "sqrc_minus_qrc_score_rmse": 0.0,
+    "qrc_pairwise_invariance_error": 0.0,
+    "sqrc_pairwise_invariance_error": 0.0
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "tables": [
+    {
+      "file": "data/beta_gamma_recovery.csv",
+      "rows": 625,
+      "sha256": "719a95197bcae0edf6ad8a5dedfbf93384238859d61d2dee584e74b618f4306f"
+    },
+    {
+      "file": "data/candidate_stability_25seeds.csv",
+      "rows": 4050,
+      "sha256": "0e8b241b9ce263976bcb4ee0fec7212e73897d0391a5361f98b986d8a70178e8"
+    },
+    {
+      "file": "data/counterfactual_25seeds.csv",
+      "rows": 2150,
+      "sha256": "fd9f4d13bd27227eafd5a627f22af20372a0971e287b139cc28f2761bd181461"
+    },
+    {
+      "file": "data/cross_query_per_seed.csv",
+      "rows": 875,
+      "sha256": "97aa99f3d4f2ea0bdbc73c26ceefe94ba0a02b29dac76ab8f7f0e3b4a7545be4"
+    },
+    {
+      "file": "data/davis_boundary_25seeds.csv",
+      "rows": 100,
+      "sha256": "34a88198b40237a373aa60dddbe8e37a9944f7423b2e03f4301ab68227a7ac39"
+    },
+    {
+      "file": "data/drug_pair_scores.csv.gz",
+      "rows": 179250,
+      "sha256": "a771793f45f7cb303e604be54cdc07fbf10608d7e80c05c01209fc4ec8466891"
+    },
+    {
+      "file": "data/fig3a_cellpainting_seedwise.tsv",
+      "rows": 400,
+      "sha256": "d4aa2bc687066fa23439aa633d0705526155c92a756a3a528a7db58dc8889ae1"
+    },
+    {
+      "file": "data/fig3b_crossbackbone_seedwise.tsv",
+      "rows": 300,
+      "sha256": "b2666376fa3a4f6306f84b65e37af18a343bf7d7151414c2d82bc708c3e2578a"
+    },
+    {
+      "file": "data/fig3c_prism_seedwise.tsv",
+      "rows": 200,
+      "sha256": "01306de8ee7e09625d8384ab54954cf5d0a309a530cb7c4e29312b5030f8c7b6"
+    },
+    {
+      "file": "data/fig3d_prism_shift_seedwise.tsv",
+      "rows": 50,
+      "sha256": "b92e1417ecb05112ccce6aad0bc4ff92914ebd770a50889a2375b82f5baf76ed"
+    },
+    {
+      "file": "data/seed_metrics.csv",
+      "rows": 100,
+      "sha256": "45c10626bc1d2d4715ccb69f0959cc8dacae867bcd2b4e8afba3946d13481119"
+    },
+    {
+      "file": "data/sqrc_stress_800_raw.csv",
+      "rows": 800,
+      "sha256": "f160c02eee298d449b524e8f4e8db85934b4ab95bf9cb297f5d739033b4e45ae"
+    },
+    {
+      "file": "data/topk_per_seed.csv",
+      "rows": 3500,
+      "sha256": "80b4e0b2d6e721af4ece26adc8d600cea27f94785b681298627bc49d21361070"
+    }
+  ],
+  "checks": {
+    "historical_scripts_hash_and_syntax": 45,
+    "prism_score_identity_max_abs_errors": {
+      "delta": 0.0,
+      "qrc": 0.0,
+      "sqrc": 0.0
+    },
+    "prism_label_counts": {
+      "0": 171803,
+      "1": 7447
+    },
+    "sqrc_lower_mse": {
+      "wins": 563,
+      "cases": 800
+    },
+    "sigma2_n5_means": {
+      "qrc_bias_mse": 0.8388621288024382,
+      "sqrc_bias_mse": 0.5250215732744322,
+      "mean_weight": 0.5980011544919964
+    }
+  }
+}
