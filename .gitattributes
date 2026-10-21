@@ -1,0 +1,5 @@
+*.csv -text
+*.tsv -text
+*.pdf binary
+*.py text eol=lf
+*.md text eol=lf
